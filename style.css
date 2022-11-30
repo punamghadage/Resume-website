@@ -1,0 +1,185 @@
+*
+{
+    margin: 0;
+    padding :0;
+    box-sizing: border-box;
+
+}
+body
+{
+background : #524d4d
+}
+.profile-img
+{
+   width: 40%;
+    float : right;
+}
+.profile-img img
+{
+    opacity: 0.5;
+    border-radius: 10px;
+    position: relative;
+    width : 100%;
+    height : 100%;
+}
+.about
+{
+    color:#fff;
+    margin-left: 15px;
+}
+.profile-info
+{
+    width: 60%;
+    height: 100vh;
+    float: left;
+    padding: 0 30px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.profile-info::-webkit-scrollbar
+{
+
+    width: 0px;
+}
+.profile-info h1
+{
+    color: #fff;
+    margine-top: 50px;
+    margin-bottom: 30px;
+}
+.social-media img
+{
+    height: 30px;
+    margin-right: 15pxs;
+}
+.social-media
+{
+    margin-top: 20px;
+    margin-left: 15px;
+    
+}
+.profile-info h2
+{
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.expertise img
+{
+    height: 15%;
+    margin: 30px;
+}
+.expertise h2
+{
+    color:#fff
+}
+.expertise
+{
+    display: inline-block;
+    width: 28%;
+    padding: 30px 10px;
+    margin: 2%;
+    text-align:center;
+    box-shadow: 0 0 15px 5px rgba(4, 6, 15, 0.18);
+    background: #fff;
+}
+.expertise small
+{
+    padding-top: 10px;
+    display: block;
+}
+.projects img
+{
+    width: 28%;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    display: inline-block;
+    padding: 30px 10px;
+    margin: 2%;
+    box-shadow: 0 0 15px 5px rgba(4, 6, 15, 0.18);
+    background: #fff;
+
+}
+.form-box
+{
+    margin-top: 30px;
+}
+.input-group input
+{
+width: 45%;
+border: 0;
+outline: none !important;
+padding: 10px;
+margin: 2%;
+display: inline-block;
+background: #fff;
+}
+.text-area textarea
+{
+    width: 95%;
+    border: 0;
+    outline: none !important;
+    margin: 2%;
+    padding: 2%;
+    background: #fff;
+}
+.submit-btn
+{
+    border: 0;
+    outline: none !important;
+    padding: 10px 20px;
+    margin: 2%;
+    background: #2ab0ff;
+cursor: pointer;
+color:#fff;
+}
+.contact img
+{
+    width: 20px;
+    margin: -5px 10px;
+}
+.contact span
+{
+    margin: 5px;
+}
+.contact 
+{
+    margin:10% 0 10% 25%;
+    width: 50%;
+}
+.design h2
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width:900px)
+{
+    .profile-info
+    {
+        width: 100%;
+        overflow: inherit;
+    }
+    .profile-img
+    {
+        width: 100%;
+    }
+    .expertise
+    {
+        width: 95%;
+        margin-bottom: 10%;
+    }
+    .expertise img
+    {
+        height: 8%;
+        margin: 10px 0;
+    }
+    .projects img
+    {
+        width:45%;
+    }
+    span 
+    {
+        display:block;
+    }
+
+}
